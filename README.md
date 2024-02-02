@@ -28,3 +28,13 @@ E dentro do `BOTNAME` ao invès do `lucasbot` coloque o nome do seu bot!
 E dentro do `Channels` ao invés de `crivon` coloque o nome certo do seu canal na twitch! Se quise adicionar outros canais adicione uma `,` e o outro nome
 
 # Pronto! Agora é só ultilizar
+
+## Veja também!
+
+Site de links onde você pode criar um menu de links.
+
+[Site links](https://github.com/lucas-henr/Site-links)
+
+Veja meu PortFolio abaixo.
+
+[PortFolio](https://portfolio-lucax.vercel.app)
