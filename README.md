@@ -1,40 +1,66 @@
-# Chatbot_twitch
- CHAT bot para twitch, que responde comandos!
+# Chatbot para Twitch
 
-Para ultilizar irei Ensinar aqui para vocês!
+Este é um chatbot para Twitch que responde a comandos personalizados, ajudando streamers a interagir de forma mais dinâmica com seus espectadores.
 
-## Como pegar as informações do bot
+---
 
-Primeiramente crie um arquivo chamado `.env` e depois entre no site `https://twitchapps.com/tmi/` para pegar as informações do bot.
+## Como Configurar o Bot
 
-<img src="https://cdn.discordapp.com/attachments/857668745982771241/873708920508678194/unknown.png"/>
+### Passo 1: Criar o Arquivo `.env`
 
-Isso apareçerá quando entrar no site, clique no botão `Connect` e connect-se na conta do (`SEU BOT´)!!
+1. Crie um arquivo chamado `.env` na raiz do projeto.
+2. Acesse o site [Twitch Apps TMI](https://twitchapps.com/tmi/) para obter as credenciais do bot.
+3. Clique no botão `Connect` e faça login na conta que será usada como bot.
+4. Após o login, será gerado um token. Copie este token e mantenha a página aberta.
 
-<img src="https://cdn.discordapp.com/attachments/857668745982771241/873709629920657468/unknown.png"/>
+### Passo 2: Configurar as Credenciais no Arquivo `.env`
 
-Irá logar na sua conta mais você ira clicar no botão `não é você? pode sair` e logar na conta do seu bot.
+No arquivo `.env`, insira as seguintes informações:
 
-Após isso irá aparecer uma caixinha com o token do seu bot, não saia dessa pagina por que irá precisar.
+```
+BOTPASS=<seu_token_aqui>
+BOTNAME=<nome_do_seu_bot>
+CHANNELS=<nome_do_seu_canal>,<outro_canal_opcional>
+```
 
-<img src="https://cdn.discordapp.com/attachments/863482656696434709/873711717765501009/Captura_de_tela_2021-08-07_203348.png"/>
+- **BOTPASS**: Substitua `<seu_token_aqui>` pelo token gerado no site.
+- **BOTNAME**: Substitua `<nome_do_seu_bot>` pelo nome da conta do bot.
+- **CHANNELS**: Substitua `<nome_do_seu_canal>` pelo nome do seu canal na Twitch. Para adicionar mais canais, separe-os por vírgulas.
 
-Dentro do arquivo `.env` você irá colocar:
+---
 
-<img src="https://cdn.discordapp.com/attachments/863482656696434709/873713399853355078/unknown.png"/>
+## Como Usar o Bot
 
-E dentro do `BOTPASS` ao invés do `(token)` coloque seu o token do seu bot!
-E dentro do `BOTNAME` ao invès do `lucasbot` coloque o nome do seu bot!
-E dentro do `Channels` ao invés de `crivon` coloque o nome certo do seu canal na twitch! Se quise adicionar outros canais adicione uma `,` e o outro nome
+Depois de configurar o arquivo `.env`, basta iniciar o bot e ele estará pronto para responder aos comandos configurados. Certifique-se de que as permissões do bot estão configuradas corretamente no seu canal para interagir com os espectadores.
 
-# Pronto! Agora é só ultilizar
+---
 
-## Veja também!
+## Como Contribuir
 
-Site de links onde você pode criar um menu de links.
+Contribuições são bem-vindas! Se você deseja ajudar a melhorar este projeto, siga estas etapas:
 
-[Site links](https://github.com/lucas-henr/Site-links)
+1. Faça um fork do repositório.
+2. Crie uma branch para sua contribuição (`git checkout -b feature/nome-da-feature`).
+3. Faça as alterações necessárias e commit (`git commit -m "Descrição das mudanças"`).
+4. Envie o pull request para revisão.
 
-Veja meu PortFolio abaixo.
+Se tiver dúvidas, abra uma issue no repositório. Sua colaboração será muito apreciada!
 
-[PortFolio](https://portfolio-lucax.vercel.app)
+---
+
+## Projetos Relacionados
+
+- [Site de Links Úteis](https://github.com/lucas-henr/Site-links): Um site simples para criar um menu de links úteis.
+- [Site EAD](https://github.com/lucas-henr/Site-EAD): Um protótipo de site de Educação a Distância para aprendizado de Front-End.
+
+---
+
+## Contato
+
+📧 **E-mail**: facillucas123@gmail.com  
+🌐 **GitHub**: [Lucas Henrique](https://github.com/lucas-henr)
+
+---
+
+Obrigado por conferir este projeto! 🚀
+
